@@ -3,23 +3,34 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0;
-  background-color: #eaeaea;
+  background-color: white;
 }
 .title-bar {
   width: 600px;
   background-color: white;
   width: 100%;
-  display: flex;
 }
 .title-bar h1 {
 }
+.content{
+  background-color: grey;
+  height: 100%;
+  width: 100%;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 600px;
   margin: 0;
   background-color: white;
+  margin: 10px;
 }
 .post-img img {
   width: 100%;
-  height: auto;
-  display: block;
-}
+  height: auto;}
