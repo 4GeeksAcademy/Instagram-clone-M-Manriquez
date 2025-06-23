@@ -53,7 +53,7 @@
         "translations": []
     },
     "address": "http://localhost:3000",
-    "currentExercise": null,
+    "currentExercise": "default-index",
     "exercises": [
         {
             "position": 0,
@@ -64,8 +64,8 @@
                 "es": "README.es.md",
                 "us": "README.md"
             },
-            "language": "html",
-            "entry": "index.html",
+            "language": "python3",
+            "entry": null,
             "title": "default-index",
             "graded": false,
             "files": [
@@ -126,5 +126,5 @@
     "bugsLink": null,
     "videoSolutions": false,
     "localhostOnly": false,
-    "session": 9775055735830766000
+    "session": 386729097480611460
 }
