@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Boldonse&family=Dancing+Script:wght@400..700&family=Doto:wght@100..900&family=Pacifico&display=swap");
 body {
   display: flex;
   flex-direction: column;
@@ -11,9 +12,10 @@ body {
   width: 100%;
 }
 .title-bar h1 {
+  font-family: "Doto";
   display: flex;
   justify-content: center;
-  margin-right: 350px;
+  margin-right: 250px;
 }
 .content {
   background-color: #eaeaea;
